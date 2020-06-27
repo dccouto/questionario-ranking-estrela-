@@ -1,0 +1,18 @@
+<div class="titulo-alinhando">
+  <div>
+    <h1 class="texto-ranking flex">{{ pergunta.descricao }}</h1>
+  </div>
+
+  <div class="flex">
+    <span class="espacos" *ngFor="let resposta of pergunta.respostas; let i = index">
+
+
+      <input type="button" mat-icon-button style="display: none" [id]='resposta.id'>
+      <i [id]="'star'+i" (click)="mudarEstrela(i, pergunta.respostas.length)"
+        class="fa fa-star-o tamanho-font modificaPonteiroMouse"> </i>
+      <div class="flex tamanho6 quebra-linha">
+        {{ resposta.descricao }}
+      </div>
+    </span>
+  </div>
+</div>

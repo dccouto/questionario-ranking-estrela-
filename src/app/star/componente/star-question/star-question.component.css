@@ -1,0 +1,31 @@
+.flex{
+    display: flex !important;
+}
+.espacos{
+    margin: 13% 4% 0 0 !important;
+}
+.tamanho-font{
+    font-size: 30px;
+}
+.titulo-alinhado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.texto-ranking{
+    /* width: 100%; */
+    color: #002C5E;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+}
+.tamanho6 {
+    max-width: 100px;
+}
+.quebra-linha{   
+    margin-top: 15px !important;
+    width: 77px !important;
+    word-break: break-word !important;
+
+}
