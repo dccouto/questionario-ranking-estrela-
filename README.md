@@ -1,5 +1,10 @@
 # ExemploPerguntaEstrela
 
+## Descrição do Projeto:
+Foi criando um componente que serve para reber uma pergunta e uma lista de respostas que serão respondidas através do Ranking de estrelas.
+Este é apenas um exemplo dessa utiliza~ção que pode ser aprimorado e incorporado em outros projetos.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Development server
